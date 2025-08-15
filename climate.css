@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color:rgba(111, 223, 223, 0.917);
+}
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: url(./walpaper.jpg);
+    color:rgba(100, 148, 237, 0.756);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.weather img {
+    height: 130px;
+    margin-top: 20px;
+} 
+.weather h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2px;
+    margin-top: 50px;
+}
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img {
+    padding: 20px;
+
+}
+.humidity, .wind {
+    font-size: 25px;
+    margin-left: -9px;
+}
+.error {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
